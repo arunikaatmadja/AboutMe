@@ -10,7 +10,13 @@
       margin: 0;
       padding: 20px;
     }
-
+    #foto {
+     display: block;
+     margin: 0 auto; /* Menengahkan gambar secara horizontal */
+     height: 85%;
+     width: 85%; /* Sesuaikan lebar gambar sesuai kebutuhan */
+    }
+    
     .biodata {
       background-color: #f0f0f0;
       padding: 20px;
@@ -38,7 +44,7 @@
 <body>
   <div class="biodata">
     <h1>AboutMe</h1>
-    <img src="opik.jpg" alt="Deskripsi gambar" width="250" height="300">
+    <img id="foto" src="opik.jpg" alt="Deskripsi foto">
       <body style="background-color: lightblue;">
 </body>
 <audio id="audio" loop>
